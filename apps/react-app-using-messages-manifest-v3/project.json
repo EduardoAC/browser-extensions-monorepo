@@ -11,7 +11,6 @@
       "options": {
         "compiler": "babel",
         "outputPath": "dist/apps/react-app-using-messages-manifest-v3",
-        "index": "apps/react-app-using-messages-manifest-v3/src/content-script/index.html",
         "baseHref": "/",
         "main": "apps/react-app-using-messages-manifest-v3/src/content-script/main.tsx",
         "tsConfig": "apps/react-app-using-messages-manifest-v3/tsconfig.app.json",
@@ -41,7 +40,7 @@
           ],
           "optimization": true,
           "outputHashing": "none",
-          "sourceMap": false,
+          "sourceMap": "inline-source-map",
           "namedChunks": false,
           "extractLicenses": true,
           "vendorChunk": false
