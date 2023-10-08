@@ -11,12 +11,13 @@
       "options": {
         "compiler": "babel",
         "outputPath": "dist/apps/react-app-using-messages-manifest-v3",
-        "index": "apps/react-app-using-messages-manifest-v3/src/index.html",
+        "index": "apps/react-app-using-messages-manifest-v3/src/content-script/index.html",
         "baseHref": "/",
-        "main": "apps/react-app-using-messages-manifest-v3/src/main.tsx",
+        "main": "apps/react-app-using-messages-manifest-v3/src/content-script/main.tsx",
         "tsConfig": "apps/react-app-using-messages-manifest-v3/tsconfig.app.json",
         "assets": [
           "apps/react-app-using-messages-manifest-v3/src/favicon.ico",
+          "apps/react-app-using-messages-manifest-v3/src/manifest.json",
           "apps/react-app-using-messages-manifest-v3/src/assets"
         ],
         "styles": [],

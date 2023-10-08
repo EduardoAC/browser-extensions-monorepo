@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "message-handling-react-ui",
+  "description": "Ilustrative example how to handling messages using a react app in manifest v3",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/logo-16.png",
+    "48": "icons/logo-48.png",
+    "128": "icons/logo-128.png"
+  },
+  "permissions": [],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background-script/background-script.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script/content-script.js"]
+    }
+  ]
+}
